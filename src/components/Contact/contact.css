@@ -1,0 +1,95 @@
+.contact_section{
+    text-align: center;
+}
+
+.socialMedia_contact,.email_contact{
+    color:#ffffff;
+    margin-top: 6rem;
+    height: 50%;
+    position: relative;
+    background-color: #2C2C2C;
+}
+
+.email_contact{
+   margin-bottom: 6rem;
+}
+
+.socialMedia_icon_wrapper h2,.email_form_wrapper h2{
+margin-top:-30px;
+font-size: 1.3rem;
+margin-bottom: 15px;
+}
+
+.socialMedia_icon_wrapper,.email_form_wrapper{
+    padding-bottom: 4rem;
+}
+
+.contact_social_icons{
+flex-wrap: wrap;
+width:50%;
+margin:auto;
+
+}
+.contact_social_icons .fab{
+margin-right: 10px;
+}
+
+.contact_social_icons div{
+    width:45%;
+    padding:15px;
+    justify-content: center;
+}
+
+.phon_icon_contaienr,.email_icon_contaienr{
+    width:fit-content;
+    background-color: #2C2C2C;
+    position:relative;
+    margin:auto;
+    padding:10px;
+    border:5px solid #2C2C2C;
+    /* left:45%; */
+    top:-3.5rem;
+    border-radius: 50%;
+}
+
+.contact_section h1{
+    padding-top:90px;
+    font-size: 4rem;
+}
+
+.email_form{
+    height: 8rem;
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.email_form .name,.email{
+    width:80%;
+    margin:0 auto;
+    outline: none;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.email{
+    grid-area: 2/1/3/2;
+    border-radius: 5px;
+    padding:5px;
+
+}
+.message{
+    grid-row:1/span 2;
+    outline: none;
+
+}
+
+.form_btn{
+    grid-column: 1/span 2;
+    width:20%;
+    /* margin:0 auto;    */
+    justify-self: end;
+    border-radius: 5px;
+    font-size: 1rem;
+}

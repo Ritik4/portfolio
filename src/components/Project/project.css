@@ -1,0 +1,41 @@
+
+.project_section{
+text-align: center;
+padding-top:30px;
+height: 85%;
+}
+
+.project_section h2{
+    /* margin:50px 0px  30px 0px; */
+    font-size: 4rem;
+}
+
+.project_info{
+    margin-bottom: 20px;
+    height: 70%;
+}
+
+.project_wrapper{
+    justify-content: center;
+height: 100vh;
+
+}
+
+.project_img_wrapper{
+height: 80%;
+ width:40%;
+}
+
+.project_img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.btn_title{
+margin-bottom: 10px;
+}
+
+.project_details{
+height: auto;
+width:55%;
+}

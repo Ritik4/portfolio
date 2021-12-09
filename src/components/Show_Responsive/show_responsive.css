@@ -1,0 +1,133 @@
+.responsive_wrapper{
+    text-align: center;
+justify-content: center;
+align-items: flex-end;
+height: 100vh;
+}
+
+.responsive_section{
+    height: 100%;
+   position: relative;
+   padding-top: 90px;
+    /* border:2px solid red; */
+   
+}
+#devices_slider{
+    width: 800%;
+    height: 100%;
+    /* border:2px solid red;  */
+    scroll-behavior: smooth;
+}
+
+#slider_container{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+}
+
+#slider_wrapper{
+    width:100%;
+}
+.slider_container_wrapper{
+    height: 15%;
+}
+/* .slider_container ::-webkit-scrollbar {
+    width: 3px;
+} */
+  
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+.img_container{
+     text-align: center;
+     justify-content: center;
+    /* border:2px solid red; */
+    height:100% ;
+    width: 100%;
+}
+
+.slider_img{
+height: 100%;
+width: 10%;
+object-fit: contain;
+}
+
+
+#left,#right{
+    position:absolute;
+    transition:background-color  0.4s,color 0.4s;
+    width:fit-content;
+    height: 12%;
+    font-size: 50px;
+    color:#757575;
+    cursor:pointer;
+     
+}
+
+#left:hover,#right:hover{
+color:#000000;
+background-color:hsla(0, 0%, 20%, 0.09) ;
+}
+
+
+#left{
+    border-radius:5px 0px 0px 5px;
+  /* background-color:aqua;     */
+  top:13.1vh;
+  left:0px;
+}
+
+#right{
+    border-radius:0px 5px 5px 0px;
+    top:13.1vh;
+    right:0px;
+}
+
+
+.right_gone,.left_gone{
+    pointer-events: none;
+}
+
+.about_project_wrapper h2{
+    padding-top:50px;
+}
+
+.about_project{
+    height: 80%;
+}
+.about_project_wrapper{ 
+    height: 100%;
+    /* background-color:#2C2C2C; */
+    
+}
+
+.about_project_master_wrapper{
+    height: 85%;
+    background-color: #2C2C2C;
+    color:#ffffff;
+}
+
+.project_description{
+width:60%;
+}
+
+
+.project_pic{
+    width:40%;
+    align-self: stretch;
+}
+
+@keyframes example {
+    from {height: 10%;}
+    to {height: 100%;}
+  }
+  
+.project_pic img{
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+    
+    animation-duration: 1s;
+}

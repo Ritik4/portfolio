@@ -1,0 +1,24 @@
+.footer_wrapper{
+    padding-top: 20px;
+    background-color: #000000;
+    color:#ffffff;
+    height: 150px;
+    text-align: center;
+}
+
+.social_icons a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.social_icons{
+margin-top: 10px    ;
+justify-content: center;
+list-style: none;
+margin-bottom: 20px;
+}
+.copyright span:first-of-type{
+    display: inline-block;
+    width:30%;
+    border-bottom: 2px solid #ffffff;
+
+}

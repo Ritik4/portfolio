@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import project from '../Images/project.jpg'
 import { Link } from 'react-router-dom'
-import './project.css'
+import './project.css' 
 
 
 const onLeftClick = (width,leftClicks,rightClicks,setLeftClick,setRightClick)=>{
@@ -87,9 +87,11 @@ function Project() {
                     <div id="left" onClick={()=>onLeftClick(width,leftClicks,rightClicks,setLeftClicks,setRightClicks)}>&lt;</div>
                     <div id="right" onClick={()=>onRightClick(width,leftClicks,rightClicks,setRightClicks,setLeftClicks)}>&gt;</div>
                 </div>
-
-                <p className="btn_title">see that project on deffrent screen size devices</p>
-                <Link to="/responsiveness" className="btn" href="">click...</Link> 
+        
+                 <div className='btn_wrapper'>
+                    <p className="btn_title">see that project on deffrent screen size devices</p>
+                    <Link to="/responsiveness" className="btn" href="">click...</Link> 
+                 </div>
             </section>
         </div>
     )

@@ -8,7 +8,6 @@ import iPhoneSE from "../Images/iPhone SE.png";
 import GalaxyS7 from "../Images/Galaxy S7.png";
 import AppleiPadPro13 from "../Images/Apple iPad Pro 13.png";
 
-import Logo from "../Images/logo.png";
 // import {Carousel} from "react-responsive-carousel";
 // import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./show_responsive.css";
@@ -42,8 +41,7 @@ const onLeftClick = (width,leftClicks,setLeftClicks,setRightClicks,rightClicks,s
     // console.log(leftClicks);
     // console.log(width);
     // console.log(leftClicks)
-    
-    const scrolledContent = -width*(leftClicks+1)   ;
+    const scrolledContent = -width*(leftClicks+1);
     // console.log(scrolledContent);
     document.getElementById('slider_container').scrollTo({left:scrolledContent,behavior:'smooth'});
     setLeftClicks(leftClicks+1);
@@ -81,7 +79,6 @@ function Show_Responsive() {
     
     
     useEffect(() => {
-       
         const left = document.getElementById('left');
         const right = document.getElementById('right');
 
@@ -104,7 +101,8 @@ function Show_Responsive() {
              setWidth(sliderContainer.clientWidth);
              console.log(width);
              console.log(leftClicks);       
-            sliderContainer.scrollTo({left:(width*leftClicks),behavior:'auto'});
+             console.log(rightClicks);
+            sliderContainer.scrollTo({left:(width*(-leftClicks)),behavior:'auto'});
          }
         setWidth(document.getElementById("slider_container").clientWidth);  
         
@@ -172,12 +170,12 @@ function Show_Responsive() {
                                 </div> 
                                 
                             </div>  
-                    
+                            
                             {/* initialContainerWidth,setContainerWidth */}
                             <div onClick={()=>onLeftClick(width,leftClicks,setLeftClicks,setRightClicks,rightClicks,setDevices,setanimStyle)} id="left"> &lt;</div>
                             <div onClick={()=>onRightClick(width,rightClicks,setRightClicks,setLeftClicks,leftClicks,setDevices,setanimStyle)} id="right">&gt;</div>
-                    </div> 
-                </div>
+                    </div>  
+                </div> 
                 <div className="about_project_master_wrapper">
                     <div className="about_project_wrapper container">
                         <h2>Project title</h2>

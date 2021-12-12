@@ -4,17 +4,14 @@ text-align: center;
 
 .about_section{
     height: 100vh;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 
 
-.about_heading{
-    font-size: 4rem;
-}
 
 .about_myself_wrapper{
-height: 71.5%;
-margin-top: 6rem;
+height: 70%;
+margin-top: 4rem;
 background-color: #2C2C2C;
 color:#ffffff;
 }
@@ -23,17 +20,19 @@ color:#ffffff;
     height: 100%;
     position: relative;
 }
-.about_pic_container{
-    width: 16%;
+
+.about_pic_container{ 
+    /* width: 16%; */
     margin: auto;
     height: auto;
     border-radius:50%;
     /* box-shadow :-18px -12px 0 0px #757577; */
     position: absolute;
-    left:42%;
-    top:-13%;
+    /* left:42%; */
+    /* top:-13%; */
     background-color: #2C2C2C;
-}
+ }
+
 .about_pic{
     border-radius: 50%;
     height: 100%;
@@ -44,12 +43,20 @@ color:#ffffff;
 }
 
 .my_info{
-    height:100%;
-    align-items: flex-end;
-    padding-top: 10vw;
+    /* height:100%; */
+    /* align-items: flex-end; */
+    /* padding-top: 10vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* width:80%; */
+    left:0%;
+    position:absolute;
 }
 .my_info p{
-    height: 90%;
+    height: fit-content;
+    width: 80%;
 }
 
 .expertise_section{
@@ -110,3 +117,90 @@ margin-bottom:10px;
 .fa-tools,.fa-laptop-code{
     margin-right: 15px;
 }
+
+@media only screen and (min-width:0px){
+
+.about_pic_container{
+    width:38%;
+    top:-16vw;
+    left:31%;
+}
+/* .my_info{
+    top:21vw;
+} */
+
+.about_heading{
+    font-size: 3rem;
+}
+
+}
+
+@media only screen and (min-width:306px){
+.about_pic_container{
+    width:28%;
+    top:-9vw;
+    left:36%;
+}
+
+/* .my_info{
+    top:20vw;
+} */
+
+.my_info p {
+    /* width:70%; */
+    font-size: 1rem;
+}
+}
+
+@media only screen and (min-width:568px){
+
+.about_pic_container{
+    width:20%;
+    top:-7vw;
+    left:40%;
+}
+
+.about_heading{
+    font-size: 4rem;
+}
+/* .my_info{
+    top:14vw;
+} */
+.my_info p {
+    /* width:70%; */
+    font-size: 1.125rem;
+}
+
+
+}
+
+@media only screen and (max-width:830px){
+.about_section{
+    padding-top: 70px;
+}
+
+}
+@media only screen and (min-width:830px){
+
+.about_pic_container{
+    width:16%;
+    top:-5vw;
+    left:42%;
+}
+
+/* .my_info{
+    top:11vw;
+    display:flex;
+    justify-content: center;
+} */
+.my_info p {
+    /* width:70%; */
+    font-size: 1.25rem;
+}
+
+.about_heading{
+    font-size: 6rem;
+}
+
+}
+

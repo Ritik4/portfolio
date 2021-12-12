@@ -22,15 +22,15 @@ function About() {
                 <div className="about_myself_wrapper">
                     <div className="about_myself container">
                         <div className="about_pic_container flex">
-                            <img className="about_pic" src={Ritik} alt="" />
+                                <img className="about_pic" src={Ritik} alt="" />
                         </div>
-                        <div className="my_info flex">
+                        <div className="my_info">
                             <p>I am a web developer living in India, I love to turn imaginations into reality by using my skills with the best tools out there, I like to work with some amazing people’s who are so passionate about build something for help others to achive what they want by making their life easier.  </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="expertise_section container">
+            <div className="expertise_section ">
                 <h2 className="flex"><i class="fas fa-laptop-code fa-2x"></i> <span>languages i speak</span></h2>
                 <div className="languages flex">
 

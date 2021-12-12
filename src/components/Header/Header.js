@@ -24,9 +24,9 @@ import "./header.css"
                     </ul>
 
                     <ul className="social_icons flex">
-                        <li><a href=""><i className="fab fa-2x fa-twitter"></i></a></li>
-                        <li><a href=""><i className="fab fa-2x fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i className="fab fa-2x fa-instagram"></i></a></li>
+                        <li><a href="https://www.google.com"><i className="fab fa-2x fa-twitter"></i></a></li>
+                        <li><a href="https://www.google.com"><i className="fab fa-2x fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.google.com"><i className="fab fa-2x fa-instagram"></i></a></li>
                     </ul>
                 </nav>  
 

@@ -68,9 +68,9 @@ height: 80%;
 
 @media only screen and (max-width:568px){
 
-    .work-section{
+    /* .work-section{ */
         /* height: auto; */
-    }
+    /* } */
 
     .projects{
         flex-direction: column;

@@ -16,10 +16,10 @@ function Contact() {
                         <div className="socialMedia_icon_wrapper">
                             <h2>Do you speak Hindi? it’s ok if you don’t, i speak English too.</h2>
                             <div className="contact_social_icons flex">
-                                <div className="flex"> <i className="fab fa-2x fa-linkedin-in"></i><span>linkedin</span> </div>
-                                <div className="flex"> <i className="fab fa-2x fa-twitter"></i>  <span>twitter</span> </div>
-                                <div className="flex"> <i className="fab fa-2x fa-instagram"></i> <span>instagram</span> </div>
-                                <div className="flex">  <i className="fab fa-2x fa-facebook"></i> <span>facebook</span></div>
+                                <div className="flex social_icon"> <i className="fab fa-2x fa-linkedin-in"></i><span>linkedin</span> </div>
+                                <div className="flex social_icon"> <i className="fab fa-2x fa-twitter"></i>  <span>twitter</span> </div>
+                                <div className="flex social_icon"> <i className="fab fa-2x fa-instagram"></i> <span>instagram</span> </div>
+                                <div className="flex social_icon">  <i className="fab fa-2x fa-facebook"></i> <span>facebook</span></div>
                             </div>
                         </div>
                     </div>    

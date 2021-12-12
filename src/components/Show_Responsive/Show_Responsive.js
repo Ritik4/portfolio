@@ -94,7 +94,7 @@ function Show_Responsive() {
         else
           right.classList.remove('right_gone')
 
-         
+          
 
         const listner = ()=>{
             const sliderContainer = document.getElementById("slider_container");
@@ -180,9 +180,9 @@ function Show_Responsive() {
                     <div className="about_project_wrapper container">
                         <h2>Project title</h2>
                         <div className="about_project flex"> 
-                            <div className="project_description">
+                            {/* <div className="project_description">
                                 n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. lorem ipsum tloremm jsk
-                            </div>
+                            </div> */}
                             <div className="project_pic">
                                 <img style={animStyle} id="device_img" src={devices} alt="" />
                             </div>

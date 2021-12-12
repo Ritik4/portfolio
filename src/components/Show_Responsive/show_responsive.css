@@ -6,7 +6,7 @@ height: 100vh;
 }
 
 .responsive_section{
-    height: 100%;
+    height: 100%; 
    position: relative;
    padding-top: 90px;
     /* border:2px solid red; */
@@ -91,14 +91,15 @@ background-color:hsla(0, 0%, 20%, 0.09) ;
 }
 
 .about_project_wrapper h2{
-    padding-top:50px;
+    padding:10px 0px;
 }
 
 .about_project{
-    height: 80%;
+    height: 87%;
 }
 .about_project_wrapper{ 
     height: 100%;
+    justify-content: center;
     /* background-color:#2C2C2C; */
     
 }
@@ -115,7 +116,7 @@ width:60%;
 
 
 .project_pic{
-    width:40%;
+    width:100%;
     align-self: stretch;
 }
 
